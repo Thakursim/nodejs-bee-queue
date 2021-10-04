@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-bee-queue",
+  "version": "1.0.0",
+  "description": "Bee queue task application",
+  "main": "restaurant.js",
+  "scripts": {
+    "start": "node restaurant.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thakursim/nodejs-bee-queue.git"
+  },
+  "keywords": [
+    "nodejs",
+    "task",
+    "bee-queue"
+  ],
+  "author": "Simran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thakursim/nodejs-bee-queue/issues"
+  },
+  "homepage": "https://github.com/Thakursim/nodejs-bee-queue#readme",
+  "dependencies": {
+    "bee-queue": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
